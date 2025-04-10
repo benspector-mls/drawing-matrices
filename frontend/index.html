@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        .row {
+          display: flex;
+        }
+        
+        .row > div {
+          min-width: 20px;
+          min-height: 20px;
+          background-color: grey;
+          border: 1px solid white;
+        }
+
+    </style>
+</head>
+<body>
+  <main>
+    <button class='btn' id="grids">Grids</button>
+    <button class='btn' id="apple">Apple</button>
+    <button class='btn' id="pacman">Pacman</button>
+    <button class='btn' id="mario">Mario</button>
+
+    <div id="canvas">
+
+    </div>
+  </main>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
